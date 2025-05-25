@@ -1,0 +1,47 @@
+.about-section {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+.summary p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.skills {
+  margin-top: 40px;
+}
+
+.skills h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list span {
+  background: #eee;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.skills-list span:hover {
+  background: #007bff;
+  color: #fff;
+}

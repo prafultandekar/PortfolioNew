@@ -1,0 +1,25 @@
+.education-section {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.edu-exp {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+  gap: 30px;
+}
+
+.edu, .exp {
+  flex: 1;
+  min-width: 300px;
+}
+
+h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
