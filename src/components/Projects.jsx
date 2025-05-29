@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './style/Project.css'; // Style file (below given)
-
+import screenshot1 from "../screenshort/Screenshot (2).png"
 const allProjects = [
   {
     title: 'E-Commerce App',
     desc: 'A fully functional online store built with React.',
-    image: '/images/ecommerce.png',
+    image: screenshot1,
     tech: 'React',
-    link: '#',
+    link: 'https://shopvibe-store.netlify.app/',
   },
   {
     title: 'Notes App',
@@ -59,7 +59,13 @@ function Projects() {
       <div className="project-grid">
         {filteredProjects.map((proj, idx) => (
           <div key={idx} className="project-card">
-            <img src={proj.image} alt={proj.title} />
+            <img src={proj.image} alt={proj.title}   style={{
+    width: '100%',
+    height: '200px',
+    objectFit: 'cover',
+    borderRadius: '10px',
+    boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)',
+  }} />
             <div className="project-info">
               <h3>{proj.title}</h3>
               <p>{proj.desc}</p>
