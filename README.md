@@ -8,7 +8,7 @@ This portfolio reflects my journey from mechanical engineering to becoming a sel
 
 ## 🔗 Live Portfolio
 
-👉 [Visit My Portfolio](https://your-portfolio-url.netlify.app)
+👉 [Visit My Portfolio](https://unique-crepe-17ad31.netlify.app/)
 
 # 🚀 Developer Portfolio - Praful Tandekar
 
@@ -19,7 +19,7 @@ A modern, responsive portfolio website built with **React.js**. It highlights my
 ## 📸 Screenshots
 
 ### ✅ Home Page
-![Home](./screenshort/Screenshot%20(2).png)
+![Home](./src/screenshort/Screenshot%20(7).png)
 
 > 📌 Add more screenshots in the same way under `/screenshort/` folder if needed.
 
